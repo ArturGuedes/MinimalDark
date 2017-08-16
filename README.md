@@ -10,7 +10,7 @@ You may download and install this extension in one of three ways.
 ### Install using Extension Manager
 - Open the the Extension Manager from the File menu.
 - Click the Themes tab in upper left corner.
-- Find *Minimal Darck*.
+- Find *Minimal Dark*.
 - Click Install
 
 ### Install from URL
