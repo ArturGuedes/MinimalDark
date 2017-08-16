@@ -1,0 +1,209 @@
+/*
+ * Brackets Default Theme
+ *
+ * Defines all the variables that one can configure in a theme. This should
+ * contain all variables / mixins for UI styling that we want to be able to
+ * change in a theme.
+ *
+ * Throughout the rest of the LESS files we should _only_ use color
+ * variable names that are on the LHS of the list below. So, if we
+ * need a new color for some UI element, we should add a variable
+ * in this file.
+ */
+
+
+
+@background: #3c3f41;
+@preto50: rgba(0, 0, 0, 0.5);
+@preto25: rgba(0, 0, 0, 0.25);
+@branco50: rgba(255, 255, 255, 0.5);
+@branco25: rgba(255, 255, 255, 0.25);
+@keyframes efeito {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+/*----------------------- EDITOR ----------------------*/
+
+.view-pane {
+    background: @background;
+}
+
+.pane-header {
+    background: @background;
+    color: #adb9bd !important;
+    line-height: 2.2 !important;
+    border: none !important;
+    opacity: 1;
+    margin: 0;
+    margin-bottom: 4px !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.active-pane {
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border: none !important;
+}
+
+.CodeMirror,
+.CodeMirror-scroll {
+    background-color: @background;
+    color: #afc2d8;
+    line-height: 1.32;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    opacity: .7;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.3), #000, rgba(0, 0, 0, 0.3));
+    background-size: 600%;
+    animation: efeito 8s ease infinite;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: @preto50;
+    color: #fff;
+}
+
+
+/*----------------------- CORES ----------------------*/
+
+span.cm-bracket {
+    color: #999;
+}
+
+span.cm-keyword {
+    color: #91c1f8;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.cm-variable {
+    color: #c5c300;
+}
+
+span.cm-variable-2 {
+    color: #009584;
+}
+
+span.cm-variable-3 {
+    color: #739288;
+}
+
+span.cm-comment {
+    color: @branco50;
+}
+
+span.cm-def {
+    color: yellow;
+}
+
+span.cm-builtin {
+    color: #d6e9ff;
+}
+
+span.cm-qualifier {
+    color: #d6e9ff;
+}
+
+span.cm-tag {
+    color: #91c1f8;
+}
+
+span.cm-property {
+    color: #6e88a6;
+}
+
+span.cm-atom {
+    color: #67fecc;
+}
+
+span.cm-number {
+    color: #22d398;
+}
+
+span.cm-attribute {
+    color: #22d398;
+}
+
+span.cm-string {
+    color: #d6e9ff;
+    letter-spacing: 0.5px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+}
+
+span.cm-string-2 {
+    color: #e37000;
+}
+
+span.cm-header {
+    color: #d6e9ff;
+}
+
+span.cm-link {
+    color: #009584;
+}
+
+span.cm-meta {
+    color: #d6e9ff;
+}
+
+span.cm-operator {
+    color: #d6e9ff;
+}
+
+span.cm-error {
+    color: #ed325b;
+    border-bottom: 1px dashed red;
+}
+
+.cm-quote {
+    color: #e06c75;
+}
+
+.cm-hr {
+    color: #85a300;
+}
+
+.CodeMirror-cursor {
+    border-left: 2px solid #999 !important;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+    border-right: none;
+}
+
+.CodeMirror-linenumber {
+    color: @branco25;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #333;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: @preto50;
+}
+
+
+/*----------------------- OUTROS ----------------------*/
+
+.image-view,
+.not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: #ddd;
+    ;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "arturguedes.minimaldark",
+    "title": "Minimal Dark",
+    "description": "A sophisticated and minimalist theme.",
+    "homepage": "https://github.com/ArturGuedes/MinimalDark",
+    "version": "1.0.0",
+    "author": "Artur Guedes (https://github.com/ArturGuedes)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": false,
+        "addModeClass": true
+    },
+    "keywords": ["theme"]
+}
