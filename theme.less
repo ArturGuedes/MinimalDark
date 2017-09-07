@@ -1,17 +1,12 @@
-/*
- * Brackets Default Theme
- *
- * Defines all the variables that one can configure in a theme. This should
- * contain all variables / mixins for UI styling that we want to be able to
- * change in a theme.
- *
- * Throughout the rest of the LESS files we should _only_ use color
- * variable names that are on the LHS of the list below. So, if we
- * need a new color for some UI element, we should add a variable
- * in this file.
- */
-
-
+/* Minimal Dark v1.0.1
+#
+# https://github.com/ArturGuedes/MinimalDark
+#
+# Copyright 2017, All rights reserved
+#
+# @author Artur Guedes <arturguedx@gmail.com>
+#
+*/
 
 @background: #3c3f41;
 @preto50: rgba(0, 0, 0, 0.5);
@@ -31,7 +26,16 @@
 }
 
 
+
 /*----------------------- EDITOR ----------------------*/
+
+::-webkit-scrollbar {
+    background-color: @background !important;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: 0 0 0 12px rgb(49, 49, 49) inset;
+}
 
 .view-pane {
     background: @background;
@@ -45,7 +49,7 @@
     opacity: 1;
     margin: 0;
     margin-bottom: 4px !important;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .active-pane {
@@ -73,8 +77,13 @@
     color: #fff;
 }
 
-
 /*----------------------- CORES ----------------------*/
+
+.horz-resizer{
+    width: 1px !important;
+    opacity: 0.05 !important;
+    background: black !important;
+}
 
 span.cm-bracket {
     color: #999;

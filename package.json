@@ -3,7 +3,7 @@
     "title": "Minimal Dark",
     "description": "A sophisticated and minimalist theme.",
     "homepage": "https://github.com/ArturGuedes/MinimalDark",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Artur Guedes (https://github.com/ArturGuedes)",
     "license": "MIT",
     "theme": {
@@ -11,5 +11,5 @@
         "dark": false,
         "addModeClass": true
     },
-    "keywords": ["theme"]
+    "keywords": ["theme","dark","html","css","js","javascript"]
 }
