@@ -37,11 +37,20 @@ Or visit http://brackets-themes.github.io/ to see the latest install instruction
 ![CSS Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/css.png)
 
 ### Split
-![CSS Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/split.png)
+![Split Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/split.png)
 
-### Full style
+### Minimal Dark+
 ![PLUS Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/plus.png)
 We recommend using the extension: [Minimal Dark+](https://github.com/ArturGuedes/MinimalDarkPlus) for a better experience!
+
+
+### Change History
+* 09/07/2017
+   * Changes to the editor title when the screen is split
+   * New scrollbar style
+   * Fixing minor issues
+* 08/16/2017:
+   * Initial code
 
 # License
 
