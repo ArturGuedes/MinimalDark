@@ -28,7 +28,7 @@ You may download and install this extension in one of three ways.
 
 Or visit http://brackets-themes.github.io/ to see the latest install instructions.
 
-# Screenshot
+# Some screenshots:
 
 ### HTML
 ![HTML Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/html.png)
@@ -36,10 +36,15 @@ Or visit http://brackets-themes.github.io/ to see the latest install instruction
 ### CSS
 ![CSS Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/css.png)
 
+### Split
+![CSS Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/split.png)
+
 ### Full style
 ![PLUS Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/plus.png)
-We recommend using the extensions: [Extensions Toolbar Reposition](https://github.com/dnbard/extensions-toolbar) and [Minimap](https://github.com/zorgzerg/brackets-minimap) for a better experience!
+We recommend using the extension: [Minimal Dark+](https://github.com/ArturGuedes/MinimalDarkPlus) for a better experience!
 
 # License
 
 The MIT License. Read [LICENSE](LICENSE) for further information.
+
+
