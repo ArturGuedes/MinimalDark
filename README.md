@@ -1,6 +1,7 @@
 # Minimal Dark
 A sophisticated and minimalist theme for Brackets.
 
+
 # Installation
 
 Download Brackets here: http://brackets.io/
@@ -45,6 +46,8 @@ We recommend using the extension: [Minimal Dark+](https://github.com/ArturGuedes
 
 
 ### Change History
+* 10/26/2017
+   * Change in some colors
 * 09/07/2017
    * Changes to the editor title when the screen is split
    * New scrollbar style
