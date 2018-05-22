@@ -1,6 +1,8 @@
 # Minimal Dark
 A sophisticated and minimalist theme for Brackets.
 
+[![Downloads](https://badges.ml/arturguedes.minimaldark/total.svg)](https://brackets-extension-badges.github.io#arturguedes.minimaldark)
+[![Version](https://badges.ml/arturguedes.minimaldark/version.svg)](https://brackets-extension-badges.github.io#arturguedes.minimaldark)
 
 # Installation
 
