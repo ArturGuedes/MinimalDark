@@ -33,7 +33,7 @@ You may download and install this extension in one of three ways.
 - Click Install
 
 ### Install from file system
-- Download this extension using the ZIP button and unzip it 
+- [Download](https://github.com/ArturGuedes/MinimalDark/archive/master.zip) this extension using the ZIP button and unzip it 
 - Copy it in Brackets' /extensions/user folder by selecting Show Extension Folder in the Help menu
 - Reload Brackets
 
