@@ -76,6 +76,6 @@ We recommend using the extension: [Minimal Dark+](https://github.com/ArturGuedes
 
 # License
 
-The MIT License. Read [LICENSE](LICENSE) for further information.
+GNU General Public License v3.0. Read [LICENSE](LICENSE) for further information.
 
 
