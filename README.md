@@ -58,6 +58,13 @@ We recommend using the extension: [Minimal Dark+](https://github.com/ArturGuedes
 
 
 ### Change History
+* 11/12/2018
+   * Release version 2.0.0! :tada:
+   * Little adjustments
+   * New color palette
+   * Animation in the selection of block of code
+   * Code organized and commented
+   * Fixed issues
 * 10/26/2017
    * Change in some colors
 * 09/07/2017
