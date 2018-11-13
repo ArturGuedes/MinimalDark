@@ -50,9 +50,9 @@ Or visit http://brackets-themes.github.io/ to see the latest install instruction
 ![CSS Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/css.png)
 
 ### Split
-![Split Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/split.png)
+![Split Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/v-split.png)
 
-### Minimal Dark+
+### Minimal Dark+ (coming soon)
 ![PLUS Screenshot](https://github.com/ArturGuedes/MinimalDark/blob/master/screenshots/plus.png)
 We recommend using the extension: [Minimal Dark+](https://github.com/ArturGuedes/MinimalDarkPlus) for a better experience!
 
