@@ -1,0 +1,283 @@
+/*
+Theme Name: Minimal Dark
+Theme URL: https://github.com/ArturGuedes/MinimalDark
+Author: Artur Guedes <arturguedx@gmail.com>
+Version: 2.0.1
+
+License: GNU General Public License v3.0
+License URL: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+@cm: CodeMirror;
+
+@c-base1: #FFFFFF;
+@c-base2: #999999;
+@c-base3: #666666;
+@c-base4: #3c3f41; //bg
+@c-base5: #313131;
+@c-base6: #000000;
+
+@c-primary1: #00FCF6;
+@c-primary2: #00C8E9;
+@c-primary3: #3492C7;
+@c-primary4: #A2CDE5;
+@c-primary5: #552E56;
+
+@c-secundary1: #E4C388;
+@c-secundary2: #c5c300;
+@c-secundary3: #009584;
+@c-secundary4: #22d398;
+@c-secundary5: #e37000;
+
+@keyframes efeito {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+// Scrollbar do painel
+::-webkit-scrollbar {
+    background-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: 0 0 0 12px @c-base5 inset;
+}
+
+// Título do painel
+.pane-header {
+    background: @c-base4  !important;
+    color: #adb9bd !important;
+    line-height: 2.2 !important;
+    border: none !important;
+    opacity: 1;
+}
+
+// Painel ativo
+.active-pane {
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border: none !important;
+}
+
+// Divisores do painel
+.horz-resizer {
+    width: 1px !important;
+}
+
+.vert-resizer {
+    height: 1px !important;
+}
+
+.horz-resizer,
+.vert-resizer {
+    opacity: .25 !important;
+    background: @c-base3  !important;
+}
+
+// Painel editor
+.@{cm} {
+
+    &-vscrollbar,
+    &-hscrollbar,
+    &-gutter-filler,
+    &-scrollbar-filler {
+        background-color: @c-base4  !important;
+    }
+
+    // Cursor de edição
+    &-cursor {
+        border-left: 1px solid @c-base1  !important;
+    }
+
+    // Código selecionado e focado
+    &-focused {
+
+        .@{cm}-activeline-background,
+        .@{cm}-selected {
+            opacity: .7;
+            background: linear-gradient(270deg, rgba(0, 0, 0, 0.25), @c-base6, rgba(0, 0, 0, 0.25));
+            background-size: 800%;
+            animation: efeito 8s ease infinite;
+        }
+
+        .@{cm}-selected:nth-of-type(1) {
+            border-top-right-radius: 4px;
+        }
+
+        .@{cm}-selected:nth-of-type(2) {
+            border-bottom-left-radius: 4px;
+        }
+
+        .@{cm}-activeline .@{cm}-gutter-elt {
+            background: @c-base5;
+            color: @c-base1;
+        }
+    }
+
+    // Coluna do contador de linhas
+    &-gutters {
+        background-color: @c-base4;
+        border: none;
+    }
+
+    // Números do contador de linhas
+    &-linenumber {
+        color: @c-base3;
+    }
+
+    // Área de edição de código
+    &-scroll {
+        background: @c-base4;
+    }
+
+    // Código selecionado e não focado
+    &-selected {
+        background: @c-base5;
+    }
+
+}
+
+// Outros
+.image-view,
+.not-editor {
+    background: @c-base4;
+}
+
+.view-pane .image-view {
+    color: @c-base2;
+}
+
+// Formatação do código
+span.cm {
+
+    &-m-clike,
+    &-m-css,
+    &-m-javascript,
+    &-m-null,
+    &-m-xml {
+        color: @c-base2;
+    }
+
+    &-bracket {
+        color: @c-base2;
+        opacity: .8;
+    }
+
+    &-keyword {
+        color: @c-primary3;
+        font-style: italic;
+        font-weight: bold;
+        opacity: .8;
+    }
+
+    &-variable {
+        color: @c-secundary2;
+        opacity: .8;
+    }
+
+    &-variable-2 {
+        color: @c-secundary3;
+    }
+
+    &-variable-3 {
+        color: @c-secundary4;
+        opacity: .8;
+    }
+
+    &-comment {
+        color: @c-base2;
+        opacity: .8;
+    }
+
+    &-def {
+        color: @c-secundary1;
+        opacity: .8;
+    }
+
+    &-builtin {
+        color: @c-base1;
+        opacity: .8;
+    }
+
+    &-qualifier {
+        color: @c-base1;
+        opacity: .8;
+    }
+
+    &-tag {
+        color: @c-primary3;
+        opacity: .8;
+    }
+
+    &-property {
+        color: @c-primary2;
+        opacity: .8;
+    }
+
+    &-atom {
+        color: @c-primary1;
+        opacity: .8;
+    }
+
+    &-number {
+        color: @c-primary1;
+        opacity: .8;
+    }
+
+    &-attribute {
+        color: @c-secundary4;
+        opacity: .8;
+    }
+
+    &-string {
+        color: @c-primary4;
+        opacity: .8;
+        letter-spacing: 0.5px;
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 2px;
+    }
+
+    &-string-2 {
+        color: @c-secundary5;
+    }
+
+    &-header {
+        color: @c-primary1;
+    }
+
+    &-link {
+        color: @c-secundary3;
+    }
+
+    &-meta {
+        color: @c-base2;
+    }
+
+    &-operator {
+        color: @c-base1;
+    }
+
+    &-error {
+        color: @c-secundary5;
+        border-bottom: 1px dashed @c-secundary5;
+    }
+
+    &-quote {
+        color: @c-secundary1;
+    }
+
+    &-hr {
+        color: @c-primary3;
+    }
+
+}

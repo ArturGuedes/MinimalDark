@@ -1,15 +1,29 @@
 {
     "name": "arturguedes.minimaldark",
     "title": "Minimal Dark",
-    "description": "A sophisticated and minimalist theme.",
+    "description": "A sophisticated and minimalist theme, perfectly balanced with carefully selected colors to please your eyes without disturbing your productivity.",
     "homepage": "https://github.com/ArturGuedes/MinimalDark",
-    "version": "2.0.0",
-    "author": "Artur Guedes (https://github.com/ArturGuedes)",
-    "license": "MIT",
+    "version": "2.0.1",
+    "author": {
+        "name": "Artur Guedes",
+        "url": "https://github.com/ArturGuedes"
+    },
+    "license": "GPL-3.0",
+    "keywords": ["css", "dark", "html", "javascript", "js", "less", "minimal", "minimalist", "php", "theme", "sophisticated"],
+    "i18n": ["en", "pt-br", "pt-pt"],
+    "package-i18n": {
+        "pt-br": {
+            "description": "Um tema sofisticado e minimalista, perfeitamente equilibrado com cores cuidadosamente selecionadas para agradar seus olhos sem atrapalhar sua produtividade.",
+            "keywords": ["css", "escuro", "html", "javascript", "js", "less", "minimo", "minimalista", "php", "tema", "sofisticado"]
+        },
+        "pt-pt": {
+            "description": "Um tema sofisticado e minimalista, perfeitamente equilibrado com cores cuidadosamente selecionadas para agradar seus olhos sem atrapalhar sua produtividade.",
+            "keywords": ["css", "escuro", "html", "javascript", "js", "less", "minimo", "minimalista", "php", "tema", "sofisticado"]
+        }
+    },
     "theme": {
-        "file": "theme.less",
+        "file": "minimalDark.less",
         "dark": true,
         "addModeClass": true
-    },
-    "keywords": ["theme","dark","html","css","js","javascript"]
+    }
 }
