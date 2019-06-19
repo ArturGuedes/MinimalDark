@@ -63,7 +63,7 @@ You may download and install this extension in one of three ways.
 - Click Install.
 
 ### Install from file system
-- [Download](https://github.com/ArturGuedes/MinimalDark/archive/master.zip) this extension and unzip it.
+- [Download the latest version](https://github.com/ArturGuedes/MinimalDark/releases) of this extension and unzip it.
 - Copy it in Brackets `~/extensions/user` folder by selecting Show Extension Folder in the Help menu.
 - Reload Brackets.
 
