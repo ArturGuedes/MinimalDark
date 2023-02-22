@@ -1,109 +1,43 @@
-# Minimal Dark
-_A sophisticated and minimalist theme for Brackets. Perfectly balanced with carefully selected colors to please your eyes without disturbing your productivity._
+<h1 align="center">
+  <br>
+    <img src="vscode/icon.png" alt="logo" width="200">
+  <br>
+  <br>
+  Minimal Dark
+  <br>
+  <br>
+</h1>
 
-__Thanks for the 25k+ downloads, see you next time 💙__
+<h4 align="center">A sophisticated and minimalist theme, perfectly balanced with carefully selected colors to please your eyes without disturbing your productivity.</h4>
 
-
-
-[![Version](https://badges.ml/arturguedes.minimaldark/version.svg)](https://brackets-extension-badges.github.io#arturguedes.minimaldark)
-[![Downloads](https://badges.ml/arturguedes.minimaldark/total.svg)](https://brackets-extension-badges.github.io#arturguedes.minimaldark)
-[![GitHub license](https://img.shields.io/github/license/ArturGuedes/MinimalDark.svg)](https://github.com/ArturGuedes/MinimalDark/blob/master/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ArturGuedes/MinimalDark.svg)]()
-
-### Sumary
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installing](#installing)
-        - [Install using Extension Manager](#install-using-extension-manager)
-        - [Install from URL](#install-from-url)
-        - [Install from file system](#install-from-file-system)
-- [Screenshots](#screenshots)
-- [Change History](#change-history)
-- [License](#license)
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=ArturGuedx.minimaldark"><img src="https://img.shields.io/visual-studio-marketplace/v/ArturGuedx.minimaldark?label=VSCode version" alt="Minimal Dark for VSCode marketplace version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ArturGuedx.minimaldark"><img src="https://img.shields.io/visual-studio-marketplace/d/ArturGuedx.minimaldark?label=VSCode downloads" alt="Minimal Dark for VSCode marketplace downloads"></a>
+  <a href="https://registry.brackets.io/"><img src="https://img.shields.io/badge/dynamic/json?url=http://registry.brackets.s3.amazonaws.com/registry.json&label=Brackets version&query=$['arturguedes.minimaldark']['metadata']['version']&color=blueviolet" alt="Minimal Dark for Brackets version"></a>
+  <a href="https://registry.brackets.io/"><img src="https://img.shields.io/badge/dynamic/json?url=http://registry.brackets.s3.amazonaws.com/registry.json&label=Brackets downloads&query=$['arturguedes.minimaldark']['totalDownloads']&color=blue" alt="Minimal Dark for Brackets downloads"></a>
+</p>
 
 
-## Getting Started
+After 5 years Minimal Dark is back, now for VSCode! With an updated look and even better user experience, you can enjoy the same modern, minimalist aesthetic that garnered over 20k downloads in the previous version.
 
-### Prerequisites
-Themes for Brackets can only be used from version 1.0 and later, so make sure your version is updated or download at: [Brackets.io](http://brackets.io/)
+<p align="center">
+VSCode
+<img src="images/2023-02-22.png" width="100%">
+<p/>
 
-### Installing
-You may download and install this theme in one of three ways. 
+<p align="center">
+Brackets
+<img src="images/brackets-html.png" width="100%">
+<p/>
 
-#### Install using Extension Manager
-- Open the Extension Manager from the File menu.
-- Click in Themes tab on upper left corner.
-- Find *Minimal Dark*.
-- Click Install.
+## Additional information
+Click [here](/brackets/README.md) for additional information on the Brackets version.
 
-#### Install from URL
-- Open the Extension Manager from the File menu.
-- Click on *Install from URL...*
-- Copy and paste following URL in the text field: `https://github.com/ArturGuedes/MinimalDark`
-- Click Install.
+## What's new?
+Click here to go to the [Changelog](CHANGELOG.md).
 
-#### Install from file system
-- [Download](https://github.com/ArturGuedes/MinimalDark/archive/master.zip) this extension and unzip it.
-- Copy it in Brackets `~/extensions/user` folder by selecting Show Extension Folder in the Help menu.
-- Reload Brackets.
-
-## Installation
-
-Download Brackets on: [Brackets.io](http://brackets.io/)
-
-You may download and install this extension in one of three ways. 
-
-### Install using Extension Manager
-- Open the Extension Manager from the File menu.
-- Click in Themes tab on upper left corner.
-- Find *Minimal Dark*.
-- Click Install.
-
-### Install from URL
-- Open the Extension Manager from the File menu.
-- Click on *Install from URL...*
-- Copy and paste following URL in the text field: `https://github.com/ArturGuedes/MinimalDark`
-- Click Install.
-
-### Install from file system
-- [Download the latest version](https://github.com/ArturGuedes/MinimalDark/releases) of this extension and unzip it.
-- Copy it in Brackets `~/extensions/user` folder by selecting Show Extension Folder in the Help menu.
-- Reload Brackets.
-
-
-## Screenshots
-
-### HTML
-![HTML Screenshot](screenshots/html.png)
-
-### CSS
-![CSS Screenshot](screenshots/css.png)
-
-### Vertical Split
-![Split Screenshot](screenshots/v-split.png)
-
-### Change History
-* 11/15/2018
-    * Support for PHP files
-    * Restructuring the code
-    * Description translated to Portuguese (BR)
-* 12/11/2018
-    * Release version 2.0.0! :tada:
-    * New color palette
-    * Animation in the selection of code block
-    * Reorganized and commented code
-    * Fixed issues
-* 10/26/2017
-    * Change in some colors
-* 07/07/2017
-    * Changes to publisher title when the screen is split
-    * New scrollbar style
-    * Fixed issues
-* 08/16/2017:
-    * Initial code
+## Issues
+This theme is still under development, so please check out the issues page on our github or contribute additional information if you encounter an issue yourself.
 
 ## License
-
-This project is licensed under the GNU General Public License v3.0. Read [LICENSE](LICENSE) for further information.
-
-
+Minimal Dark for Brackets and Minimal Dark for VSCode are distributed under the [GNU General Public License v3.0](LICENSE).

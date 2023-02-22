@@ -1,0 +1,44 @@
+{
+  "name": "minimaldark",
+  "displayName": "Minimal Dark for VSCode",
+  "description": "After 5 years Minimal Dark is back, now for VSCode!",
+  "version": "0.0.2",
+  "publisher": "ArturGuedx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArturGuedes/MinimalDark"
+  },
+  "author": {
+    "name": "Artur Guedes",
+    "email": "arturguedx+github@gmail.com"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#212121",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "minimal",
+    "minimalist",
+    "sophisticated",
+    "brackets",
+    "theme",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Minimal Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minimal-dark-color-theme.json"
+      }
+    ]
+  }
+}
