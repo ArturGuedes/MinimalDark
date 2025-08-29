@@ -11,18 +11,10 @@
 <h4 align="center">A sophisticated and minimalist dark theme for Visual Studio Code</h4>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=ArturGuedx.minimaldark">
-    <img src="https://img.shields.io/visual-studio-marketplace/v/ArturGuedx.minimaldark?label=VSCode%20version" alt="Minimal Dark for VSCode marketplace version">
-  </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=ArturGuedx.minimaldark">
-    <img src="https://img.shields.io/visual-studio-marketplace/d/ArturGuedx.minimaldark?label=VSCode%20downloads" alt="Minimal Dark for VSCode marketplace downloads">
-  </a>
-  <a href="https://registry.brackets.io/">
-    <img src="https://img.shields.io/badge/dynamic/json?url=http://registry.brackets.s3.amazonaws.com/registry.json&label=Brackets%20version&query=$['arturguedes.minimaldark']['metadata']['version']&color=blueviolet" alt="Minimal Dark for Brackets version">
-  </a>
-  <a href="https://registry.brackets.io/">
-    <img src="https://img.shields.io/badge/dynamic/json?url=http://registry.brackets.s3.amazonaws.com/registry.json&label=Brackets%20downloads&query=$['arturguedes.minimaldark']['totalDownloads']&color=blue" alt="Minimal Dark for Brackets downloads">
-  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ArturGuedx.minimaldark"><img src="https://img.shields.io/visual-studio-marketplace/v/ArturGuedx.minimaldark?label=VSCode%20version" alt="Minimal Dark for VSCode marketplace version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ArturGuedx.minimaldark"><img src="https://img.shields.io/visual-studio-marketplace/d/ArturGuedx.minimaldark?label=VSCode%20downloads" alt="Minimal Dark for VSCode marketplace downloads"></a>
+  <a href="https://registry.brackets.io/"><img src="https://img.shields.io/badge/dynamic/json?url=http://registry.brackets.s3.amazonaws.com/registry.json&label=Brackets%20version&query=$['arturguedes.minimaldark']['metadata']['version']&color=blueviolet" alt="Minimal Dark for Brackets version"></a>
+  <a href="https://registry.brackets.io/"><img src="https://img.shields.io/badge/dynamic/json?url=http://registry.brackets.s3.amazonaws.com/registry.json&label=Brackets%20downloads&query=$['arturguedes.minimaldark']['totalDownloads']&color=blue" alt="Minimal Dark for Brackets downloads"></a>
 </p>
 
 Minimal Dark returns with a complete redesign for Visual Studio Code, building upon the success of its predecessor that achieved over 20k downloads. This theme emphasizes readability, consistency, and visual hierarchy while maintaining the clean, minimalist aesthetic developers love.
